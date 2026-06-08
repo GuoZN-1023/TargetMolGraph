@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+.DS_Store
+models/*.pt
+models/electrolyte/*.pt
+data/raw/*.csv
+data/processed/*.csv
+data/processed/*.pt
+data/generated/*.csv
+results/*.csv
+results/electrolyte/*.csv
+results/figures/*.png
+results/logs/*

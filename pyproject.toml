@@ -1,0 +1,9 @@
+[project]
+name = "target-mol-graph"
+version = "0.1.0"
+description = "Graph-theory and GNN based target-oriented molecular generation."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
